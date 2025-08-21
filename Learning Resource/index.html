@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFree</title>
+    <style>
+        body{
+            margin:0px;
+        }
+        header{
+            background-color: lightblue;
+            text-align: center;
+            padding:0px;
+            margin: 0px;
+        }
+        nav h1{
+            font-size: 40px;
+        }
+        header button{
+            background-color: rgb(113, 113, 225);
+            padding:5px;
+            border-radius: 8px;
+        }
+        main button{
+            margin:10px;
+            padding:10px;
+            border-radius: 10px;
+            font-size: large;
+            transition: 0.3s ;  
+        }
+        main button:hover{
+            background-color: rgb(113, 113, 225);
+            color: white;
+        }
+        main input{
+            margin:10px;
+            padding:5px;
+            border-radius: 9px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card{
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: rgb(242, 230, 230);
+            box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.662);
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .card img{
+            border-radius: 0px 10px 10px 10px;
+        }
+        .click{
+            background-color: steelblue;
+            padding:5px;
+            border-radius: 5px;
+        }
+        .btn1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .btn2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            padding: 3px;
+        }
+        .para{
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgb(221, 213, 203);
+            border-radius: 10px;
+        }
+        .list{
+            list-style-type: none;
+            float:right;
+            position:relative;
+            right:35%;
+        }
+        .img2 img{
+            margin-left:10%;
+            margin-top: 20px;
+            border:1px solid black;
+            border-radius: 10px 10px 10px 10px;
+        }
+        .text{
+            float: right;
+            position:relative;
+            right:62%;
+            flex-direction: column;
+        }
+        .img1{
+            border: 2px solid black;
+            border-radius: 20px;
+            margin-left:10%;
+        }
+        .end{
+            text-align: center;
+        }
+        span{
+            color : green;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="edufree.png" alt="EduFun" width="100" height="100" >
+        <nav>
+        <h1> Explore <span> EduFree</span>- Your Free High School Learning Hub </h1> 
+        <p style="font-size: 30px;"> A collection of free study materials,notes and practice papers for high school students.</p>
+        <button> Sign in </button>
+        </nav>
+    </header>
+<br>
+    <main>
+        <div class="btn1">
+        <button> Mathematics </button>
+        <button> Physics </button>
+        <button> Chemistry </button>
+        <button> Biology </button>
+        <button> History </button>
+        <button> Geography </button>
+        </div>
+        <br>
+
+        <div class="btn1">
+        <input type="text" placeholder="Search..." style="width: 400px; padding: 5px;">
+        </div>
+        <br> <br>
+
+        <div class="container">       
+            <div class="card">
+                <h2> Mathematics - Grade 10</h2>
+                <img src="mathematics.jpg" alt="matematika" width="200px" height="150px">
+                <p> Quadratic Equations </p>
+                <a href="quadratic.pdf">👉[Download PDF] </a>
+            </div>
+            <div class="card">
+                <h2> Physics - Grade 11</h2>
+                <img src="physics.jpg" alt="matematika" width="200px" height="150px">
+                <p> Newton's Laws of Motion </p>
+                <a href="newton's law.pdf">👉[Download PDF]</a>
+            </div>
+            <div class="card">
+                <h2> Chemistry-Grade 12 </h2>
+                <img src="chemistry.jpg" alt="matematika" width="200px" height="150px">
+                <p> Redox Reactions  </p>
+                <a href="redox.pdf">👉[Download PDF] </a>
+            </div>
+            <div class="card">
+                <h2> Biology - Grade 12</h2>
+                <img src="biology.jpg" alt="matematika" width="200px" height="150px">
+                <p> Reproduction </p>
+                <a href="reproduction.pdf">👉[Download PDF] </a>
+            </div>
+            <div class="card">
+                <h2> History - Grade 10</h2>
+                <img src="history.jpg" alt="matematika" width="200px" height="150px">
+                <p> Raise of Nationalism</p>
+                <a href="natiolism.pdf">👉[Download PDF] </a>
+            </div>
+            <div class="card">
+                <h2> Geography - Grade 10</h2>
+                <img src="geography.jpeg" alt="matematika" width="200px" height="150px">
+                <p> Resources and Development </p>
+                <a href="resource.pdf">👉[Download PDF]</a>
+            </div>
+        </div>   
+
+        <div class="btn2">
+            <button style="background-color: rgb(88, 88, 172);"> See more </button>
+        </div>
+        <div class="para">
+            <h2> What are the benefits of studying with EduFree? </h2>
+            <pre style="font-size: 20px;"> EduFree helps in building strong learning habits and self-study skills.
+Students can prepare for exams more effectively with organized content including notes,modules and sample papers from different subjects.
+            </pre>
+        </div>
+        <br> <br>
+
+        <div class="grid">
+            <div>
+            <img class="img1" src="pic2.jpg" alt="EduFree" width="500px" height="300px">
+                <ul class="list">
+                    <li>✅ 100% Free - All learning materials are accessible without cost</li> <br> <br>
+                    <li>✅ Comprehensive - Covers multiple subjects and grades </li> <br> <br>
+                    <li>✅ Easy to Understand - Notes are simplified for better learning</li> <br> <br>
+                    <li>✅ Exam Preparation - Includes practice questions and sample papers</li> <br> <br>
+                </ul>
+            </div>
+            <p style="background-color: antiquewhite;  text-align:center; font-size: 25px; font-weight: bold;">Sample Papers </p>
+            <div>
+            <div class="img2">
+            <img src="pic3.png" alt="EduFree" width="200px" height="300px">
+            <div class="text">
+            <h3> Download Free Sample Papers </h3>
+            <pre>Practice with past exam papers and model
+tests to prepare better for your exams </pre>
+            <ul>
+                <li> <a href="MATH QP.pdf">📘Mathematics</a> </li>
+                <li> <a href="Science-SQP.pdf">📗Science </a> </li>
+                <li> <a href="SocialScience-SQP.pdf">📕Social Science</a> </li>
+                <li> <a href="All QP's.pdf">📔Other</a> </li>
+            </ul>
+            </div>
+            </div>
+        </div>
+
+        <div class="end">
+            <p style="font-size: larger;"><b>Stay Updated!</b></p>
+            <p> Subscribe with your email to get notified about new study materials and practice papers. </p>
+            <input type="text" placeholder="Enter email here..." style="width:400px; padding:5px">
+            <br>
+            <button style="background-color: cornflowerblue; padding:5px; margin:2px;"> Submit </button>
+        </div>
+    </main>
+</body>
+</html>
